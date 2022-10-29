@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <style>
+        H1{
+            color: rgb(18, 16, 5);
+            background-color: rgb(220, 144, 21);
+        }
+        fun1{
+            color: rgb(191, 158, 10);
+            background-color: rgb(21, 220, 61);
+        }
+    </style>
+    
+</head>
+<body bgcolor="blue" background="C:\Users\DELL\Documents\tic_tac_toe.jpg">
+    
+  
+      <center>
+       
+            <H1> 
+                <marquee>
+                WELCOME TO TIC TOC TOE
+                </marquee>
+                </H1>
+            
+        
+        
+            <input type="text"  id="a" onclick="fun1();logic() ">
+            <input type="text"  id="b"  onclick="fun2();logic()">
+            <input type="text"  id="c"   onclick="fun3();logic()"><br></br>
+            
+            <input type="text"  id="d"  onclick="fun4();logic()">
+            <input type="text"  id="e"  onclick="fun5();logic()">
+            <input type="text"  id="f"  onclick="fun6();logic()"><br><br>
+            
+            <input type="text"  id="g"  onclick="fun7();logic()">
+            <input type="text"  id="h"  onclick="fun8();logic()">
+            <input type="text"  id="i"  onclick="fun9();logic()"><br><br>
+        </center>
+
+            <script>
+                flag=1;
+                function fun1()
+                {
+                    if(flag==1)
+                    {
+                        document.getElementById("a").value="X";
+                        document.getElementById("a").Disabled=true;
+                        flag=0;
+                    }
+                    else{
+                        document.getElementById("a").value="0";
+                        document.getElementById("a").Disabled=true;
+                        flag=1;
+                    }
+                }
+                function fun2()
+                {
+                    if(flag==1)
+                    {
+                        document.getElementById("b").value="X";
+                        document.getElementById("b").Disabled=true;
+                        flag=0;
+                    }
+                    else{
+                        document.getElementById("b").value="0";
+                        document.getElementById("b").Disabled=true;
+                        flag=1;
+                    }
+                }
+                function fun3()
+                {
+                    if(flag==1)
+                    {
+                        document.getElementById("c").value="X";
+                        document.getElementById("c").Disabled=true;
+                        flag=0;
+                    }
+                    else{
+                        document.getElementById("c").value="0";
+                        document.getElementById("c").Disabled=true;
+                        flag=1;
+                    }
+                }
+                function fun4()
+                {
+                    if(flag==1)
+                    {
+                        document.getElementById("d").value="X";
+                        document.getElementById("d").Disabled=true;
+                        flag=0;
+                    }
+                    else{
+                        document.getElementById("d").value="0";
+                        document.getElementById("d").Disabled=true;
+                        flag=1;
+                    }
+                }
+                function fun5()
+                {
+                    if(flag==1)
+                    {
+                        document.getElementById("e").value="X";
+                        document.getElementById("e").Disabled=true;
+                        flag=0;
+                    }
+                    else{
+                        document.getElementById("e").value="0";
+                        document.getElementById("e").Disabled=true;
+                        flag=1;
+                    }
+                }
+                function fun6()
+                {
+                    if(flag==1)
+                    {
+                        document.getElementById("f").value="X";
+                        document.getElementById("f").Disabled=true;
+                        flag=0;
+                    }
+                    else{
+                        document.getElementById("f").value="0";
+                        document.getElementById("f").Disabled=true;
+                        flag=1;
+                    }
+                }
+                function fun7()
+                {
+                    if(flag==1)
+                    {
+                        document.getElementById("g").value="X";
+                        document.getElementById("g").Disabled=true;
+                        flag=0;
+                    }
+                    else{
+                        document.getElementById("g").value="0";
+                        document.getElementById("g").Disabled=true;
+                        flag=1;
+                    }
+                }
+                function fun8()
+                {
+                    if(flag==1)
+                    {
+                        document.getElementById("h").value="X";
+                        document.getElementById("h").Disabled=true;
+                        flag=0;
+                    }
+                    else{
+                        document.getElementById("h").value="0";
+                        document.getElementById("h").Disabled=true;
+                        flag=1;
+                    }
+                }
+                function fun9()
+                {
+                    if(flag==1)
+                    {
+                        document.getElementById("i").value="X";
+                        document.getElementById("i").Disabled=true;
+                        flag=0;
+                    }
+                    else{
+                        document.getElementById("i").value="0";
+                        document.getElementById("i").Disabled=true;
+                        flag=1;
+                    }
+                }
+
+                function logic()
+                {
+                    one=document.getElementById("a").value;
+                    two=document.getElementById("b").value;
+                    three=document.getElementById("c").value;
+                    four=document.getElementById("d").value;
+                    five=document.getElementById("e").value;
+                    six=document.getElementById("f").value;
+                    seven=document.getElementById("g").value;
+                    eight=document.getElementById("h").value;
+                    nine=document.getElementById("i").value;
+            
+                if (one=="X" && two=="X" && three=="X")
+                {
+                    alert("X WON");
+                }
+                else if(one=="0" && two=="0" && three=="0" )
+                {
+                    alert("0 WON");
+                }
+                if (four=="X" && five=="X" && six=="X")
+                {
+                    alert("X WON");
+                }
+                else if(four=="0" && five=="0" && six=="0" )
+                {
+                    alert("0 WON");
+                }
+                if (seven=="X" && eight=="X" && nine=="X")
+                {
+                    alert("X WON");
+                }
+                else if(seven=="0" && eight=="0" && nine=="0" )
+                {
+                    alert("0 WON");
+                }
+                if (one=="X" && five=="X" && nine=="X")
+                {
+                    alert("X WON");
+                }
+                else if(one=="0" && five=="0" && nine=="0" )
+                {
+                    alert("0 WON");
+                }
+            }
+                
+            </script>
+            
+            
+        
+      
+</body>
+</html>
